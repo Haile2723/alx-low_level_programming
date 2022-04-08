@@ -1,13 +1,13 @@
-#include <stdio.h>
 
+#include <stdio.h>
 /**
  * 
  * main -entry point
  * 
  * Return : Always 0 (success)
- *
  * */
 int main(void)
 {
-return 0;
+	printf("Hello, World");
+	return 0;
 }
