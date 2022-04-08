@@ -7,7 +7,7 @@ scanf( "%d", &n );
 
 if( n > 0 )
 {
-printf( n "is posetive" );
+  printf( n, "%d is positive" );
 }
 else if( n == 0 )
 {
