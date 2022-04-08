@@ -9,7 +9,7 @@ if( n > 0 )
 {
 printf( "Is posetive" );
 }
-else if( n = 0 )
+else if( n == 0 )
 {
 printf( "Is zero" );
 }
