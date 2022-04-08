@@ -7,14 +7,14 @@ scanf( "%d", &n );
 
 if( n > 0 )
 {
-printf( "Is posetive" );
+printf( &n "is posetive" );
 }
 else if( n == 0 )
 {
-printf( "Is zero" );
+printf( &n "is zero" );
 }
 else {
-printf( "Is negative" );
+printf( &n "is negative" );
 }
 return 0;
 }
