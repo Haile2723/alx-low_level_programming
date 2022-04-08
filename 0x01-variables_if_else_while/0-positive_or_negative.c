@@ -1,10 +1,10 @@
 #include <stdio.h>
-int main(void)
+int main()
 {
   int n;
   
-  scanf( "%d", &n)
-if (n > 0)
+  scanf( "%d", &n);
+ if (n > 0)
 {
   printf("%d is positive", n);
 } 
