@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ * 
+ * Rrturn : Always 0 (success)
+ */
+
 int main(void)
 {
   int n;
