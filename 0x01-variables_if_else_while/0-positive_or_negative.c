@@ -1,18 +1,20 @@
 #include <stdio.h>
+
 int main(void)
 {
-unsigned int n;  
-scanf( "%o", &n);
-if(n > 0)
+int n;  
+scanf( "%d", &n);
+if (n > 0)
 {
-  printf("%o is positive", n);
+  printf("%d is positive", n);
 } 
  else if (n < 0)
 {
-  printf("%o is negative", n);
+  printf("%d is negative", n);
 }
-else {
-  printf("%o is zero", n);
+ else
+{
+  printf("%d is zero", n);
 }
  return 0;
 }
