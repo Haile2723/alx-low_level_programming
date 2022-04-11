@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
-*main - Print the given number as greater than 5, zero and less than 
-*6 and greater than 0.
-*Return: Always 0.
+ *main - Print the given number as greater than 5, zero and less than 
+ *6 and greater than 0.
+ *Return: Always 0.
 */
 int main(void)
 {
