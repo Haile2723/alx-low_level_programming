@@ -1,4 +1,5 @@
-#include "main.h"
+
+0;276;0c#include "main.h"
 
 /**
  *File: main.h
@@ -12,5 +13,4 @@ for (letter = 'a'; letter <= 'z'; letter++)
 _putchar(letter);
 }
 _putchar('\n');
-return (0);
 }
