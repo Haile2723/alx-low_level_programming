@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  *print_line - print a straight line in the terminal
+ *@n: The number character to be printed
  */
 void print_line(int n)
 {
