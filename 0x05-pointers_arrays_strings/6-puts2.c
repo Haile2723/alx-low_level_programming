@@ -3,7 +3,7 @@
  * puts2 - Prints one char out of two of string
  * @str: The string containing char
  */
-void print2(char *str)
+void puts2(char *str)
 {
 int index = 0, len = 0;
 while (str[index++])
