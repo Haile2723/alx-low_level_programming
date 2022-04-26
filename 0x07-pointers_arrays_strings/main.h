@@ -1,5 +1,5 @@
-#ifdef "MAIN.H"
-#define "MAIN.H"
+#ifndef "MAIN_H"
+#define "MAIN_H"
 /**
  * File: main.h
  * Desc: Header files containing prototypes usedin 0x07-pointers_arrays_strings
@@ -7,7 +7,7 @@
 #include <stddef.h>
 int _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);
-char *_memcpy(char *dest, char *src, unsigned int n);
+char _memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrn(char *s, char *accept);
