@@ -43,7 +43,7 @@ iterate_wild(wildstr);
  * @postfix: The postfix
  * Return: If str and postfix are identical .....
  */
-char *postfix_match(char *str, chaar *postfix)
+char *postfix_match(char *str, char *postfix)
 {
 int str_len = strlen_no_wilds(str) - 1;
 int postfix_len = strlen_no_wilds(postfix) - 1;
