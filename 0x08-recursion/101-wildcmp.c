@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *wildcmp - compare two given strings
  *@s1: The firrst string
@@ -6,7 +7,7 @@
  *Return: The difference between string
  */
 int wildcmp(char *s1, char *s2)
-
+{
 while ((*s1 != '\0' && *s2 != '\0') && *s1 == *s2)
 {
 s1++;
