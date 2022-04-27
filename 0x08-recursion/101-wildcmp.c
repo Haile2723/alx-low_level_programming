@@ -47,14 +47,14 @@ char *postfix_match(char *str, char *postfix)
 {
 int str_len = strlen_no_wilds(str) - 1;
 int postfix_len = strlen_no_wilds(postfix) - 1;
-if (*postfix == '*');
+if (*postfix == '*')
 {
 iterate_wild(&postfix);
 }
 if (*(str + str_len - postfix_len) == *postfix && *postfix != '\0')
 {
 postfix++;
-return (postfix_match(str, postfix);
+return (postfix_match(str, postfix));
 }
 return (postfix);
 }
