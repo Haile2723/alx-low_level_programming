@@ -4,11 +4,12 @@
  * main - Print multiplication of two integers, followed by new line.
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointer to the arguments.
- * Return: If the argument receives two arguments - 0, otherwise - 1.
+ * Return: If the argument receives two arguments - 0, otherwise - 1
  */
 int main(int argc, char *argv[])
 {
-int num1, num2, prod;
+int num1, num2; 
+int  prod;
 if (argc != 3)
 {
 printf("Error\n");
