@@ -2,8 +2,8 @@
 /**
  * main - Prints the program name, followed by a new line
  * @argc: The number of argument supplied to the program
- *@argv: An array of pointers to the argument
- *Return: Always 0
+ * @argv: An array of pointers to the argument
+ * Return: Always 0
  */
 int main(int __attribute__((__unused__)) argc, *argv[])
 {
