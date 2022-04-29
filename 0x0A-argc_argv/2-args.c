@@ -1,4 +1,4 @@
-#include <stdiio.h>
+#include <stdio.h>
 /**
  * main - Prints all arguments it receives
  * @argc: The number arguments supplied to the program.
