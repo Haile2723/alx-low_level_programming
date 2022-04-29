@@ -4,7 +4,7 @@
  * main - Print multiplication of 2 integers, followed by new line.
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointer to the arguments.
- * Return: 0 if the argument receives 2 arguments, 1 if not.
+ * Return: If the argument receives 2 arguments - 0, 1 - if not.
  */
 int main(int argc, char *argv[])
 {
