@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Print multiplication of 2 integers, followed by new line.
+ * main - Print multiplication of two integers, followed by new line.
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointer to the arguments.
- * Return: If the argument receives 2 arguments - 0, 1 - if not.
+ * Return: If the argument receives two arguments - 0, otherwise - 1.
  */
 int main(int argc, char *argv[])
 {
