@@ -3,8 +3,8 @@
 /**
  * main - Prints multiplication of two integers, followed by new line.
  * @argc: The number of arguments supplied to the program.
- * @argv: An array of pointer to the arguments.
- * Return: If the argument receives two arguments - 0, otherwise - 1
+ * @argv: An array of pointers to the arguments.
+ * Return: If the argument receives two arguments - 0, Otherwise - 1.
  */
 int main(int argc, char *argv[])
 {
