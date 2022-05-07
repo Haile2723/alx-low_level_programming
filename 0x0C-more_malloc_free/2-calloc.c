@@ -1,6 +1,6 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
-#include <stdlib.h>
 /**
  * _calloc - Allocates memory for an array of a certain number of elements...
  * @nmemb: The number of elements.
@@ -10,20 +10,20 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-char *filler;
-unsigned int index;
+char *x;
+unsigned int i;
 if (nmemb == 0 || size == 0)
 {
 return (NULL);
 }
-filler = malloc(size * nmemb);
-if (filler = NULL)
+x = malloc(nmemb * size);
+if (x == NULL)
 {
 return (NULL);
 }
-for (index = 0; index < (size * nmemb); index++)
+for (i = 0; i < (size * nmemb); i++)
 {
-filler[index] = '\0';
+x[i] = '\0';
 }
-return (filler);
+return (x);
 }
