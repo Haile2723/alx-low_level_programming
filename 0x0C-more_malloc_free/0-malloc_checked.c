@@ -3,6 +3,7 @@
 /**
  * malloc_checked - Allocate memory using malloc.
  * @b: The number of byte to be allocated.
+ * Return: pointer to allocated memory or exit with 98
  */
 void *malloc_checked(unsigned int b)
 {
