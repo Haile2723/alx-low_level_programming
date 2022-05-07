@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 #include <stdlib.h>
 /**
@@ -12,39 +13,27 @@
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-void *n;
-char *ptr_copy, *y;
-unsigned int i;
+char *y;
+if (new_size > old_size)
+{
+y = malloc(new_size);
+free(ptr);
+return (y);
+}
 if (new_size == old_size)
 {
 return (ptr);
 }
 if(ptr == NULL)
 {
-n = malloc(new_size);
-if (n == NULL)
-{
-return (NULL);
-}
-return (n);
+y = malloc(new_size);
+free(ptr);
+return (y);
 }
 if (new_size == 0 && ptr != NULL)
 {
 free(ptr);
 return (NULL);
 }
-ptr_copy = ptr;
-n = malloc(sizeof(*ptr_copy) * new_size);
-if (n == NULL)
-{
-free(ptr);
-return (NULL)
-}
-y = n;
-for (i = 0; i < old_size && i < new_size; i++)
-{
-y[i] = *ptr_copy++;
-}
-free(ptr);
-return (n);
+return (ptr);
 }
