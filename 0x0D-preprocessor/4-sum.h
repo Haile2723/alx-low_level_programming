@@ -3,7 +3,7 @@
 
 /**
  * File: 4-sum.h
- * Description: header file that named SUM and print their sum
+ * Desc: header file that named SUM and print their sum
  */
 
 #define SUM(x, y) ((x) + (y))
