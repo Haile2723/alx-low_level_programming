@@ -1,6 +1,7 @@
 #include "dog.h"
-#include <stdio.h>
 #include <stdlib.h>
+
+
 int _strlen(char *str);
 char *_strcopy(char *dest, char *src);
 
@@ -70,6 +71,6 @@ return (NULL);
 }
 doggo->name = _strcopy(doggo->name, name);
 doggo->age = age;
-doggo->owner = _stropy(doggo->owner, owner);
+doggo->owner = _strcopy(doggo->owner, owner);
 return (doggo);
 }
