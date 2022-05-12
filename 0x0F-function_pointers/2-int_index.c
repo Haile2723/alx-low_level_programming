@@ -7,7 +7,7 @@
  * Return: If no element maches or size <= 0 - -1.
  *         Otherwise - The index of first element.
  */
-int int_array(int *array, int size, int (*cmp)(int))
+int int_index(int *array, int size, int (*cmp)(int))
 {
 int index;
 if (array == NULL || cmp == NULL)
