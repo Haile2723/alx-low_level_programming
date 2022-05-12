@@ -14,10 +14,6 @@ if (array == NULL || cmp == NULL)
 {
 return (-1);
 }
-if (size <= 0)
-{
-return (-1);
-}
 for (array = 0; index < size; index++)
 {
 if (cmp(array[index]) != 0)
