@@ -35,7 +35,7 @@ printf("%d", num);
 }
 
 /**
- * print_float - Prints a  float.
+ * print_float - Prints a float.
  * @arg: A list of arguments pointing to the float to be printed.
  */
 void print_float(va_list arg)
@@ -77,7 +77,8 @@ printer_t funcs[] = {
 {"c", print_char},
 {"i", print_int},
 {"f", print_float},
-{"s", print_string}};
+{"s", print_string}
+};
 va_start(args, format);
 while (format && (*(format + i)))
 {
