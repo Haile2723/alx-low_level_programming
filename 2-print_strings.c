@@ -8,7 +8,7 @@
 #include <stdarg.h>
 
 /**
- * print_strings - Prints strings, followed by new line
+ * print_strings - Print strings, followed by a new line.
  * @separator: The string to be printed between strings.
  * @n: The number of strings passed to the function.
  * @...: A variable number of strings to be printed.
@@ -23,10 +23,10 @@ unsigned int index;
 va_start(strings, n);
 for (index = 0; index < n; index++)
 {
-str = va_arg(strings, char *);
+str = va_arg(strings, chr *);
 if (str == NULL)
 {
-printf("(nil)");
+printf("nil")
 }
 else
 {
