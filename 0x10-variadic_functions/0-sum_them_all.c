@@ -16,7 +16,8 @@
 int sum_them_all(const unsigned int n, ...)
 {
 va_list nums;
-unsigned int index, sum = 0;
+unsigned int index;
+unsigned int sum = 0;
 va_start (nums, n);
 for (index = 0; index < n; index++)
 {
