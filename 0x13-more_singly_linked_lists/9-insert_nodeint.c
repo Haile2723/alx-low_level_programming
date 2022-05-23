@@ -20,7 +20,7 @@ if (new == NULL)
 return (NULL);
 }
 new->n = n;
-if (idx = 0)
+if (idx == 0)
 {
 new->next = copy;
 *head = new;
