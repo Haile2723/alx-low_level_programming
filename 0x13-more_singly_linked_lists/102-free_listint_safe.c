@@ -58,7 +58,7 @@ size_t free_listint_safe(listint_t **h)
 listint_t *tmp;
 size_t nodes, index;
 nodes = looped_listint_count(*h);
-if (node == 0)
+if (nodes == 0)
 {
 for (; h != NULL && *h != NULL; nodes++)
 {
