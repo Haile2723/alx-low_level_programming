@@ -4,9 +4,9 @@
  */
 #include "lists.h"
 /**
- * find_listint_loop - finds the loop contained in the llists
+ * find_listint_loop - Finds the loop contained in the lists
  * @head: A pointer to the head of the lists
- * Return: If there is no loop - NULL, Otherwise the address of the node 
+ * Return: If there is no loop - NULL, Otherwise the address of the node.
  */
 listint_t *find_listint_loop(listint_t *head)
 {
