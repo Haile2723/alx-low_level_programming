@@ -3,7 +3,7 @@
  * Auth: Haile2723
  *
  */
-#include ""main.h"
+#include "main.h"
 /**
  * flip_bits - Count the no of bits needed to be flipped
  * @n: The number.
@@ -12,7 +12,7 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-unsigned long int xor = n ^m, bits = 0;
+unsigned long int xor = n ^ m, bits = 0;
 while (xor > 0)
 {
 bits += (xor & 1);
