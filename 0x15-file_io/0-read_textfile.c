@@ -1,5 +1,5 @@
 /*
- * File: 0-print_textfile.c
+ * File: 0-read_textfile.c
  * Auth: Haile2723
  */
 #include "main.h"
