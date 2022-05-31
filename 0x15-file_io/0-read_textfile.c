@@ -19,7 +19,7 @@ if (filename == NULL)
 {
 return (0);
 }
-bufffer = malloc(sizeof(char) * letters);
+buffer = malloc(sizeof(char) * letters);
 if (buffer == NULL)
 {
 return (0);
