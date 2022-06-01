@@ -82,7 +82,7 @@ exit(99);
 r = read(from, buffer, 1024);
 to = open(argv[2], O_WRONLY | O_APPEND);
 }
-while (r > 0);
+while (r != 0);
 free(buffer);
 close_file(from);
 close_file(to);
