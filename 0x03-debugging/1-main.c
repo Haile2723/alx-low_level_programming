@@ -18,7 +18,7 @@ while (i < 10)
 _putchar(i);
 }*/
 
-printf("Infinite looop avoided! \\o/\n");
+printf("Infinite loop avoided! \\o/\n");
 
 return (0);
 }
